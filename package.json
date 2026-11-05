@@ -1,0 +1,20 @@
+{
+  "name": "whalemq",
+  "version": "1.0.0",
+  "description": "Whale-mq, your easiest way to manage queues",
+  "author": "ronakmaheshwari",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronakmaheshwari/"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^26.6.6",
+    "ioredis": "^6.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
